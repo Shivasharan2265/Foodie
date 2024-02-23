@@ -1,0 +1,34 @@
+.form {
+    text-align: right;
+  
+  }
+  
+  .form button {
+    font: inherit;
+    cursor: pointer;
+    background-color: #8a2b06;
+    border: 1px solid #8a2b06;
+    color: white;
+    padding: 0.25rem 2rem;
+    border-radius: 20px;
+    font-weight: bold;
+    -webkit-transition-duration: 0.3s; /* Safari */
+  transition-duration: 0.3s;
+  }
+
+  
+  
+  
+  .form button:after,
+  .form button:active {
+    background-color: #641e03;
+    border-color: #641e03;
+    transform: scale(1.3);
+  }
+
+  @media only screen and (max-width: 420px) {
+    .form {
+      text-align: right;
+      font-size: small;
+    }
+  }
